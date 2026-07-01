@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flujos Funcionales - IODL0150</title>
+    <title>Flujos Funcionales - Banco Internacional</title>
     <style>
         * {
             margin: 0;
@@ -27,7 +27,7 @@
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
             padding: 40px;
             text-align: center;
-            max-width: 600px;
+            max-width: 700px;
         }
         
         h1 {
@@ -108,29 +108,45 @@
         }
         
         .flujos-list li {
-            padding: 10px;
-            margin: 10px 0;
+            padding: 15px;
+            margin: 12px 0;
             background: #f9f9f9;
             border-left: 4px solid #667eea;
             text-align: left;
             color: #555;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .flujos-list li:hover {
+            background: #f0f0f0;
+            border-left-color: #764ba2;
+            transform: translateX(5px);
         }
         
         .flujos-list a {
             color: #667eea;
             text-decoration: none;
             font-weight: 600;
+            font-size: 1.05em;
         }
         
         .flujos-list a:hover {
             text-decoration: underline;
+            color: #764ba2;
+        }
+        
+        .flujos-list p {
+            font-size: 0.9em;
+            margin-top: 5px;
+            color: #888;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>📊 Flujos Funcionales</h1>
-        <p class="subtitle">Análisis de procesos y flujos</p>
+        <p class="subtitle">Análisis de procesos y flujos · Banco Internacional</p>
         
         <div class="content">
             <p>Bienvenido al repositorio de Flujos Funcionales. Aquí encontrarás análisis detallados y diagramas de flujos de procesos.</p>
@@ -139,18 +155,23 @@
             <ul class="flujos-list">
                 <li>
                     <a href="IODL0150_flujo.html">🔗 IODL0150 - Flujo Funcional</a>
-                    <p style="font-size: 0.9em; margin-top: 5px; color: #888;">Análisis completo del flujo IODL0150</p>
+                    <p>Análisis completo del flujo IODL0150</p>
+                </li>
+                <li>
+                    <a href="Prestamo%20x%20Cartera%20Vencida.html">💳 Préstamo x Cartera Vencida - DLCV</a>
+                    <p>Arquitectura de integración AS/400 → IBS: curse automático de operaciones en cartera vencida</p>
                 </li>
             </ul>
         </div>
         
         <div class="button-group">
             <a href="IODL0150_flujo.html" class="btn btn-primary">Ver IODL0150</a>
-            <a href="https://github.com/recheverria-gif/flujos-funcionales" class="btn btn-secondary">Ver en GitHub</a>
+            <a href="Prestamo%20x%20Cartera%20Vencida.html" class="btn btn-primary">Ver DLCV</a>
+            <a href="https://github.com/recheverria-gif/Flujos-funcionales" class="btn btn-secondary">Ver en GitHub</a>
         </div>
         
         <div class="footer">
-            <p>Última actualización: Junio 2026</p>
+            <p>Última actualización: Julio 2026</p>
             <p>© 2026 Flujos Funcionales - Todos los derechos reservados</p>
         </div>
     </div>
